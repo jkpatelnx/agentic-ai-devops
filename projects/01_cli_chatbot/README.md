@@ -60,7 +60,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 
 # Run
-python3 app.py
+python3 cli_chatbot.py
 ```
 
 ## Example
