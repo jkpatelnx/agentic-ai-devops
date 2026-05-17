@@ -1,6 +1,6 @@
 # Agentic AI DevOps
 
-Production-grade AI agents for infrastructure automation, using local LLMs (Ollama), LangChain, and tool calling.
+AI agents for infrastructure automation, using local LLMs (Ollama), LangChain, and tool calling.
 
 A collection of autonomous agents designed to interact with infrastructure, containers, and orchestration platforms—demonstrating practical AI-driven DevOps workflows without cloud dependencies.
 
