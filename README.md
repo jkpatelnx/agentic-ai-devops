@@ -13,6 +13,13 @@ A collection of autonomous agents designed to interact with infrastructure, cont
 | **[03 Docker Agent](./projects/03_docker_agent/)** | Container management | Docker CLI tools | gemma4 |
 | **[04 K8s AIOps Agent](./projects/04_k8s_aiops_agent/)** | Kubernetes operations | kubectl tools | gemma4 |
 
+## Architecture
+
+<p align="center">
+  <img src="docs/architecture.gif" alt="Architecture Diagram" width="100%" />
+</p>
+
+
 ## Getting Started
 
 ### Prerequisites
@@ -40,7 +47,7 @@ ollama pull gemma4
 python3 chatbot_agent.py  # or appropriate agent script
 ```
 
-## Architecture
+## Repository Structure
 
 ```
 agentic-ai-devops/
