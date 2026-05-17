@@ -74,30 +74,29 @@ agentic-ai-devops/
 ```bash
 cd projects/01_chatbot_agent
 python3 chatbot_agent.py
-# Type: hello
+# Type: What can you help me with in this agent?
 ```
 
 **Linux Agent**
 ```bash
 cd projects/02_linux_agent
 python3 linux_agent.py
-# Type: show disk usage
+# Type: Show me current disk usage, memory usage, and CPU load.
 ```
 
 **Docker Agent**
 ```bash
 cd projects/03_docker_agent
 python3 docker_agent.py
-# Type: list all containers
+# Type: List all running containers and show their status.
 ```
 
 **Kubernetes Agent**
 ```bash
 cd projects/04_k8s_aiops_agent
 python3 k8s_aiops_agent.py
-# Type: list pods in namespace default
+# Type: List all pods in the default namespace and show their status.
 ```
-
 
 ## Key Concepts
 
@@ -107,7 +106,6 @@ python3 k8s_aiops_agent.py
 - **MCP** – Standardized agent-to-tool communication
 - **AIOps** – AI-driven operations and remediation
 
----
 
 ## Additional Resources
 
@@ -117,5 +115,23 @@ Detailed setup and usage instructions for each project:
 - **[02 Linux Agent](./projects/02_linux_agent/README.md)** – System tools guide
 - **[03 Docker Agent](./projects/03_docker_agent/README.md)** – Container ops guide
 - **[04 K8s Agent](./projects/04_k8s_aiops_agent/README.md)** – Kubernetes guide
+
+## Screenshots
+
+**Chatbot Agent Overview**: Sample output from the chatbot agent during a simple conversation.
+<p align="left">
+	<img src="./docs/screenshots/01_chatbot_agent_overview.png" alt="Chatbot agent overview"  />
+</p>
+
+**Linux Agent System Check**: Sample output from the Linux agent showing system health details.
+<p align="left">
+	<img src="./docs/screenshots/02_linux_agent_system_check.png" alt="Linux agent system check"  />
+</p>
+
+**Docker Agent Container List**: Sample output from the Docker agent listing container status details.
+<p align="left">
+	<img src="./docs/screenshots/03_docker_agent_container_list.png" alt="Docker agent container list" />
+</p>
+
 
 
