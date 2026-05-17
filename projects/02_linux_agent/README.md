@@ -34,7 +34,7 @@ Developed and tested on Linux.
 ```text
 02_linux_agent/
 │
-├── app.py
+├── linux_agent.py
 ├── requirements.txt
 └── README.md
 ```

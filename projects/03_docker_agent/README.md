@@ -39,7 +39,7 @@ This project includes two ways to use the agent:
 ```text
 03_docker_agent/
 ├── docker_agent.py
-├── docker_agent_With_mcp_server.py
+├── docker_agent_With_mcp.py
 ├── mcp_server.py
 ├── requirements.txt
 └── README.md
@@ -88,7 +88,7 @@ python3 docker_agent.py
 MCP-based Docker agent:
 
 ```bash
-python3 docker_agent_With_mcp_server.py
+python3 docker_agent_With_mcp.py
 ```
 
 ## Example
@@ -106,5 +106,5 @@ inspect my-container
 
 ## Notes
 
-- The MCP-based agent starts the MCP server through the client configuration in `docker_agent_With_mcp_server.py`.
+- The MCP-based agent starts the MCP server through the client configuration in `docker_agent_With_mcp.py`.
 - The direct agent runs Docker commands locally through Python's `subprocess` module.

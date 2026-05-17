@@ -26,7 +26,7 @@ Developed and tested on Linux.
 ```text
 01_cli_chatbot/
 │
-├── app.py
+├── chatbot_agent.py
 ├── requirements.txt
 └── README.md
 ```
@@ -60,7 +60,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 
 # Run
-python3 cli_chatbot.py
+python3 chatbot_agent.py
 ```
 
 ## Example
